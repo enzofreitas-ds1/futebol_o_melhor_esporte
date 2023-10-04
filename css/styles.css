@@ -129,6 +129,15 @@ h1, .h1 {
   }
 }
 
+
+
+#estadio img {
+  width: 90%;
+  aspect-ratio: 16,9;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
@@ -576,6 +585,11 @@ progress {
 .list-inline-item {
   display: inline-block;
 }
+
+.container{
+  margin: 0 auto;
+}
+
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
@@ -11167,4 +11181,69 @@ html {
   font-weight: 700;
   font-family:'Courier New', Courier, monospace;
   font-style: italic;
+}
+
+/*Footer (Rodapé)*/
+
+footer{
+  color: #ffffff;
+  background: #00008B;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  display: block;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 20px 1px #00008B;
+  text-align: center;
+}
+
+footer h5{
+  font-family:'Courier New', Courier, monospace;
+  padding: 5px;
+  bottom: 0px;
+  margin-top: 7px;
+  font-size: 14px;
+}
+
+footer p{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ddcdcd;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 15px;	
+  font-size: 15px;	
+}
+
+.bt-topo{
+  display: flex;
+  justify-content: right;
+}
+
+.bt-topo span:hover{
+color: #272927;  
+}
+
+.bt-topo span{
+  font-size: 60px;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-top: 0;
+  transition: 0.5s;
+}
+
+/* Fim Footer (Rodapé)*/
+
+.hhh p{
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#bb2d3b;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.ppp{
+  font-size: 13px;
+
 }
